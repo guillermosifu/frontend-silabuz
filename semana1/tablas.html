@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tablas</title>
+  </head>
+  <body>
+    <h1>tablas html</h1>
+    <table border="3" bgcolor="green">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Apellido</th>
+          <th>Correo</th>
+          <th>direccion</th>
+          <th>Telefono</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>juan</td>
+          <td>perez</td>
+          <td>pepito@gmail.com</td>
+          <td>lima</td>
+          <td>5555555</td>
+        </tr>
+        <tr>
+          <td>pepe</td>
+          <td>gomez</td>
+          <td>joselo@mail.com</td>
+          <td>lima</td>
+          <td>5555555</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>tabla de alumnos</h2>
+    <!-- rowspan colspan -->
+    <table border="">
+      <thead>
+        <tr>
+          <th>Curso</th>
+          <th>Nombre</th>
+          <th>Apellido</th>
+          <th>Correo</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2">Ingles</td>
+          <td>pepe</td>
+          <td>smith</td>
+          <th>latinlover@gmail.com</th>
+        </tr>
+        <tr>
+            <td>Ingles</td>
+            <td rowspan="3">pepe</td>
+            <td>smith</td>
+            <th>latinlover@gmail.com</th>
+          </tr>
+          <tr>
+            <td>Ingles</td>
+            <td>pepe</td>
+            <td colspan="2">smith</td>
+            <th>latinlover@gmail.com</th>
+          </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
