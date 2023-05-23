@@ -1,0 +1,24 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font: Arial, Helvetica, sans-serif;
+}
+
+.gradiente-uno{
+    border: solid 2px;
+    width: 300px;
+    height: 200px;
+    /* vamos iniciar con 2 valores tipoo color */
+    background:linear-gradient(90deg, blue, red,#000,pink);
+
+}
+
+.gradiente-dos{
+    width: 300px;
+    height: 200px;
+    background: linear-gradient(to bottom, blue, red,#000,pink);
+}
