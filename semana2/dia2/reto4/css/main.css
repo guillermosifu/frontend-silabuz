@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+}
+section {
+  background-color: hsl(217, 54%, 11%);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid red;
+}
+
+.card {
+  width: 300px;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 14px; 
+  box-shadow: 5px 5px 15px hsl(215, 26%, 18%);
+}
+
+.card-foto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.imagen-principal {
+  border-radius: 12px;
+  width: 250px;
+
+}
+
+
+
+.text-white {
+  color: #fff;
+  font-weight: bold;
+}
+
+.contenedor-dos {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.text-gray {
+  margin-top: 15px;
+  color: #fff;
+  opacity: 0.4;
+  font-weight: 300;
+}
+
+.contenedor-detalle {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 25px;
+  border-bottom: solid 0.5px #9e9292;
+}
+.text-eth {
+  color: hsl(178, 100%, 50%);
+}
+
+.text-reloj {
+  color: hsl(215, 51%, 70%);
+}
+
+.contenedor-autor {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.autor {
+  /* border: solid; */
+  margin-left: 10px;
+}
+
+.avatar-img {
+  border: solid 1px #fff;
+  border-radius: 50%;
+}
