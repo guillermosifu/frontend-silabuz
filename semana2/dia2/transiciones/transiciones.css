@@ -1,0 +1,38 @@
+/* transiocionde imagnes con CSS */
+
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #000;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h1 {
+  color: #fff;
+}
+
+section {
+  margin-top: 4rem;
+  display: flex;
+  width: 700px;
+  height: 600px;
+}
+
+section img {
+  width: 0;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: 0.8;
+  transition: .5s ease;
+}
+
+section img:hover{
+    cursor: grab;
+    width: 200px;
+    filter: constrast(120%);
+}
+
