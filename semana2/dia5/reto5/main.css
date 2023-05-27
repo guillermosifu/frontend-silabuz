@@ -115,3 +115,29 @@ p {
   background: #57eff9;
   width: 30%;
 }
+/* portafolio */
+
+.portafolio {
+  padding: 34px 150px 90px;
+  background-color: #ffd233;
+}
+
+.portafolio h2{
+    color: #00ad84;
+    margin-bottom: 35px;
+}
+
+.portafolio-images{
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portafolio figure img{
+    margin: 8px;
+    border: none;
+}
+
+.portafolio figure img:hover{
+    border: solid 1px blue;
+}
