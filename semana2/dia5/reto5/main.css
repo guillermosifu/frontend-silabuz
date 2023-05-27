@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrap {
+  max-width: 960px;
+  margin: auto;
+  height: 100vh;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
+p {
+  color: #fff;
+}
+
+/* portada */
+.portada {
+  position: relative;
+}
+
+.portada img {
+  display: block;
+}
+
+.portada h1 {
+  position: absolute;
+  color: #fff;
+  font-size: 60px;
+  font-weight: bold;
+  padding: 20px;
+  box-sizing: border-box;
+  top: 2%;
+  left: 45%;
+}
+
+.portada h2 {
+  position: absolute;
+  color: #fff;
+  font-size: 30px;
+  padding: 20px;
+  top: 200px;
+  left: 9%;
+  background: rgba(113, 153, 254, 0.5);
+}
+/* about me */
+.about-me {
+  background: #7299fe;
+  padding: 30px;
+  height: 400px;
+}
+
+.about-me h2 {
+  padding: 20px;
+  color: #1d06a7;
+}
+
+.about-me p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+
+.about-me button {
+  background: #d16fff;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 15px;
+  color: #fff;
+  width: 170px;
+  height: 60px;
+  font-size: 22px;
+}
+
+/* Skills */
+.skills {
+  background: #9022ff;
+  padding: 34px 42px 72px;
+}
+
+.skills h2 {
+  color: #26cc4b;
+  margin-bottom: 30px;
+}
+
+.skills h3 {
+  color: #fff;
+}
+
+.skills .list {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.skills .list-bar,
+.skills .list-bar div {
+  border-radius: 10px;
+}
+
+.skills .list-bar {
+  background-color: #fff;
+  height: 20px;
+}
+.skills .list-bar div {
+  height: 20px;
+  background: #57eff9;
+  width: 30%;
+}
