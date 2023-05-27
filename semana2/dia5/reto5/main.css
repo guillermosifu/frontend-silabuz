@@ -141,3 +141,48 @@ p {
 .portafolio figure img:hover{
     border: solid 1px blue;
 }
+/* contacto */
+
+.contact {
+  background: #1687A0;
+}
+
+.contact h2 {
+  color: #FF1B1B;
+  margin-bottom: 20px;
+}
+
+.contact__row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.contact button {
+  padding: 10px 20px;
+  background: #233451;
+  border: none;
+  color: #FFF;
+  font-weight: bold;
+}
+
+.contact__input {
+  padding: 0 2%;
+  width: 50%;
+}
+
+.contact__input input {
+  width: 100%;
+  padding: 10px 0px;
+}
+
+.contact__text {
+  padding: 0 2%;
+  width: 100%;
+}
+
+.contact__text textarea {
+  width: 100%;
+
+}
