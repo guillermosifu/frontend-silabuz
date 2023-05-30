@@ -1,0 +1,38 @@
+body {
+  margin: 15px;
+  background-color: rgb(109, 214, 174);
+}
+
+.success {
+  padding: 15px;
+  border-radius: 15px;
+  color: #fff;
+  margin-bottom: 15px;
+  background-color: red;
+}
+
+.info {
+  padding: 15px;
+  border-radius: 15px;
+  color: black;
+  margin-bottom: 15px;
+  background-color: blue;
+}
+
+.div-icon-phone {
+  background: url(./images/phone.jpeg);
+  border: solid 2px rgb(252, 135, 140);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+}
+
+.div-icon-mail {
+  background: url(./images/mail.jpeg);
+  border: solid 2px red;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+}/*# sourceMappingURL=estillos.css.map */

@@ -1,0 +1,43 @@
+//una de las rorma de importar un scss es usando @import
+
+@import "./variables.scss";
+
+body {
+  margin: $padding-1;
+  background-color: $color-principal;
+}
+
+// vamos a aprender a crea MIXIN
+//la idea pasar diferentes lineas de cogioo de esitlos a un mixind a una funcion
+
+@mixin alertita($bg: red, $color-text: #fff) {
+  padding: $padding-1;
+  border-radius: $padding-1;
+  color: $color-text;
+  margin-bottom: $padding-1;
+  background-color: $bg;
+}
+
+.success {
+  //aca en vez de hacer el estilo de siempre solo debria llamar a la porcio de codigo que hemos creado
+
+  @include alertita;
+}
+
+.info {
+  @include alertita(blue, black);
+}
+
+@mixin generate-icons($name, $icon, $color, $size: 400px) {
+  .div-icon-#{$name} {
+    background: url(./images/#{$icon});
+    border: solid 2px $color;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: $size;
+    height: $size;
+  }
+}
+
+@include generate-icons("phone", "phone.jpeg", rgb(252, 135, 140), 300px);
+@include generate-icons("mail","mail.jpeg" ,red ,300px )
