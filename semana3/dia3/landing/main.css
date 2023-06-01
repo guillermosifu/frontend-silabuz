@@ -1,0 +1,16 @@
+
+
+main{
+  margin-top: 60px;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border: solid red;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: #fff; /* Color de texto blanco */
+  }
