@@ -93,5 +93,16 @@ if(numeroMultiplo % 3 === 0){
   // vamo a conocer el uso del and or  &&   || 
   //if o else
 
+  const edadMayor =19
+  const nombreMayor = 'juan'
+//am,bas condiciones debne cumplir lodatos asignados
+  if(edadMayor ===19 && nombreMayor === 'juan'){
+    console.log('el usuario es juan y tiene 18 anios')
+  }
 
-  
+
+  // al menos en una de la condiciones deben cumplirse
+
+  if(edadMayor ===18 || nombreMayor === 'juan'){
+    console.log('el usuario es juan y tiene 18 anios')
+  }
