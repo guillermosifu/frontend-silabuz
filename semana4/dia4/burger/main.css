@@ -129,7 +129,7 @@ nav {
   animation: muestraMenu 350ms ease-in-out both;
 }
 
-.br-1.animado {
+/* .br-1.animado {
   transform: rotate(-45deg) translate(-10, 8px);
 }
 
@@ -139,8 +139,20 @@ nav {
 
 .br-3.animado {
   transform: rotate(45deg) translate(-10, -8px);
+} */
+
+.ham:hover .br-1 {
+  transform: rotate(-45deg) translate(-10px,8px);
 }
 
-.ham.girar:hover {
+.ham:hover .br-2{
+  opacity: 0;
+}
+
+.ham:hover .br-3{
+  transform: rotate(45deg) translate(-10px,-8px);
+}
+
+.ham.girar:hover{
   transform: rotate(360deg);
 }
