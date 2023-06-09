@@ -37,3 +37,7 @@ const computadora = {
     );
   },
 };
+
+
+computadora.mostrarDetalleCompleto();
+
