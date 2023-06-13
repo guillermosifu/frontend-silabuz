@@ -7,3 +7,9 @@ const imprimir =()=>{
 
 const button = document.querySelector("#atrapame");
 
+button.addEventListener("click",()=>{
+    console.log("hola aca estoy")
+})
+
+
+
